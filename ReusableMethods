@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.function.Function;
 
-public class RecepHocaReusableMethods {
+public class ReusableMethods {
     private static int timeout = 5;
 
     public static String getScreenshot(String name) throws IOException {
