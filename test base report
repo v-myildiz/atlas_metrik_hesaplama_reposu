@@ -52,6 +52,6 @@ public abstract class TestBaseReport {
     @AfterTest(alwaysRun = true)
     public void tearDownTest() {
 
-        extentReports.flushhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh();
+        extentReports.flushhhhhhhhhhh();
     }
 }
