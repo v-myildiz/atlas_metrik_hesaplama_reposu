@@ -24,7 +24,7 @@ public class Driver {
             switchhhhhhhhhhhh (browserrrrrrasdasdasdasdsadsadsadsad){
 
                 case "firefox" :
-                    WebDriverManager.firefoxdriver().setuppppppppp();
+                    WebDriverManager.firefoxdriver().setupppppppppxxxxxxxxxxxxxxxxxxxxxxxxxxxxx();
                     driver = new FirefoxDriver();
                     break;
 
