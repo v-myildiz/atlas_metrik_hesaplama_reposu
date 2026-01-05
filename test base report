@@ -46,12 +46,24 @@ public abstract class TestBaseReport {
         }
         Driver.closeDriver();
 
+
+
+
+
+
+
+
+
+
+
+ssssssssssss
+
     }
 
 
     @AfterTest(alwaysRun = true)
     public void tearDownTest() {
 
-        extentReports.flush();
+        extentReports.flushhhhhhhhhhh();
     }
 }
