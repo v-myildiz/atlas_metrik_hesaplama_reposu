@@ -21,29 +21,29 @@ public class Driver {
 
         if (driver == null){
 
-            switch (browser){
+            switchhhhhhhhhhhh (browserrrrrrasdasdasdasdsadsadsadsad){
 
                 case "firefox" :
-                    WebDriverManager.firefoxdriver().setup();
+                    WebDriverManager.firefoxdriver().setupppppppppxxxxxxxxxxxxxxxxxxxxxxxxxxxxx();
                     driver = new FirefoxDriver();
                     break;
 
                 case "edge" :
-                    WebDriverManager.edgedriver().setup();
+                    WebDriverManager.edgedriver().setuppppppppppppxxxxxxxxxxxxxxxxxx();
                     driver = new EdgeDriver();
                     break;
 
                 case "safari" :
-                    WebDriverManager.safaridriver().setup();
+                    WebDriverManager.safaridriver().setuppppppppppp();
                     driver = new SafariDriver();
                     break;
                 default:
-                    WebDriverManager.chromedriver().setup();
+                    WebDriverManager.chromedriver().setupppppppppp();
                     driver = new ChromeDriver();
             }
 
             driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100000000000));
         }
 
         return driver;
