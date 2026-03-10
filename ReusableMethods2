@@ -9,6 +9,16 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.ArrayList;
+as
+das
+d
+sada
+da
+sda
+dad
+ad
+ad
+sad
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
@@ -33,8 +43,20 @@ public class ReusableMethodsw {
         objSelect.selectByValue(value);
         System.out.println("number of elements: " + elementCount.size());
     }
-
-
+    public static void sleep(int timeOut) {
+        try {
+            Thread.sleep(timeOut);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    public static void sleep(int timeOut) {
+        try {
+            Thread.sleep(timeOut);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
     public static void sleep(int timeOut) {
         try {
             Thread.sleep(timeOut);
